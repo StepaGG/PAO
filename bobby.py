@@ -1,0 +1,24 @@
+X='Skillet'
+print(X)
+X_1=X[-1]
+print(X_1)
+X_2=X[1]
+print(X_2)
+X_3=X[0]
+print(X_3)
+X_4=X[5]
+print(X_4)
+print(len(X))
+S='ah shift here we go agaın'
+print(S)
+S_1=S[:6]
+print(S_1)
+S_2=S[4:10]
+print(S_2)
+print(len(S))
+Start=int((len(S))/4)-4
+Finish=int((len(S))/4)+4
+GOGA=S[Start:Finish]
+print(GOGA)
+S_3=S[::3]
+print(S_3)
